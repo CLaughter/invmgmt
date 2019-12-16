@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS inv_mgmt;
+CREATE DATABASE inv_mgmt;

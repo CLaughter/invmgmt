@@ -1,0 +1,46 @@
+{
+  "name": "invmgmt",
+  "version": "1.0.0",
+  "description": "We will create an inventory management system for companies mostly focused on assets assigned to employees.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CLaughter/invmgmt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CLaughter/invmgmt/issues"
+  },
+  "homepage": "https://github.com/CLaughter/invmgmt#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.0",
+    "filedrop": "^2.0.0",
+    "moment": "^2.24.0",
+    "mysql2": "^2.0.2",
+    "papaparse": "^5.1.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "sequelize": "^5.21.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cross-env": "^6.0.3",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "mocha": "^6.2.2",
+    "prettier": "^1.19.1"
+  }
+}
